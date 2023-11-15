@@ -22,7 +22,7 @@ const Carousel1 = () => {
                     className="h-full w-full object-cover"
                 />
             </Carousel>
-            <div className='absolute  md:text-[230px] text-6xl  grid  place-items-center md:top-52 top-32 md:left-44 left-14 font-robo'>
+            <div className='absolute  md:text-[230px] text-5xl  grid  place-items-center md:top-52 top-32 md:left-44 left-14 font-robo'>
                 <span className='text-[#212529] font-extrabold'>Frozen <span className='text-[#a52a2a]'>Treats!</span> </span>
 
 

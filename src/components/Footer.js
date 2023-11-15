@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
     return (
         <div id='contact'>
-            <div className='container mx-auto h-96 bg-[#ffc0cb] mt-20 rounded-t-2xl '>
+            <div className='md:container md:mx-auto h-96 bg-[#ffc0cb] mt-20 rounded-t-2xl w-full '>
                 <div className='mx-auto w-min flex pt-24 pb-5'>
                     <div className='border border-gray-800 mx-5 px-3 py-2 hover:bg-gray-600 hover:text-white rounded-full transition-transform duration-1000'>
                         <a href='#'> <FaLinkedinIn className='text-2xl ' /></a>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className='mx-auto w-min flex py-5 justify-between'>
                     <div className='w-max'>
                         <p>
-                            <p className='text-2xl font-robo pr-16'>Get In Touch</p> <br />
+                            <p className='text-2xl font-robo pr-12'>Get In Touch</p> <br />
                             123 Street, <br />New York,
                             USA <br />  +012 345 67890
                         </p>
@@ -36,7 +36,7 @@ const Footer = () => {
                             <span className='text-[#a52a2a]'>Treats!</span> </span>
                     </div>
 
-                    <div className='w-max pl-16'>
+                    <div className='w-max pl-12'>
                         <p className='text-2xl font-robo'>Opening Hours</p> <br />
                         Mon – Sat,<br /> 8AM – 5PM <br />
                         Sunday: Closed
@@ -44,8 +44,8 @@ const Footer = () => {
 
                 </div>
 
-                <div className='w-max mx-auto mt-5'>
-                    © All Rights Reserved. Designed by <a href='#' className='text-blue-900 font-robo text-xl'>Karthikrajan V</a>.
+                <div className='w-max mx-auto mt-2 text-center'>
+                    © All Rights Reserved. <br /> Designed by <a href='#' className='text-blue-900 font-robo text-xl'>Karthikrajan V</a>.
                 </div>
 
             </div>
