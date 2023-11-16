@@ -1,19 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useInView } from "framer-motion"
 
 const Footer = () => {
+    
     return (
         <div id='contact'>
             <div className='md:container md:mx-auto h-96 bg-[#ffc0cb] mt-20 rounded-t-2xl w-full '>
                 <div className='mx-auto w-min flex pt-24 pb-5'>
                     <div className='border border-gray-800 mx-5 px-3 py-2 hover:bg-gray-600 hover:text-white rounded-full transition-transform duration-1000'>
-                        <a href='#'> <FaLinkedinIn className='text-2xl ' /></a>
+                        <a href='https://www.linkedin.com/in/karthikrajanv'> <FaLinkedinIn className='text-2xl ' /></a>
                     </div>
 
                     <div className='border border-black mx-5 px-3 py-2 hover:bg-gray-600 hover:text-white rounded-full'>
-                        <a href='#'> <IoLogoInstagram className='text-2xl ' /></a>
+                        <a href='https://www.instagram.com/karthikrajan_vijayakumar/'> <IoLogoInstagram className='text-2xl ' /></a>
                     </div>
 
                     <div className='border border-black mx-5 px-3 py-2 hover:bg-gray-600 hover:text-white rounded-full'>
@@ -45,7 +47,7 @@ const Footer = () => {
                 </div>
 
                 <div className='w-max mx-auto mt-2 text-center'>
-                    © All Rights Reserved. <br /> Designed by <a href='#' className='text-blue-900 font-robo text-xl'>Karthikrajan V</a>.
+                    © All Rights Reserved. <br /> Designed by <a href='https://www.linkedin.com/in/karthikrajanv' className='text-blue-900 font-robo text-xl'>Karthikrajan V</a>.
                 </div>
 
             </div>
