@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/IceCream/static/css/main.750d1ea0.css",
-    "main.js": "/IceCream/static/js/main.d500039d.js",
+    "main.css": "/IceCream/static/css/main.74b41a95.css",
+    "main.js": "/IceCream/static/js/main.610cda17.js",
     "static/media/carousel-2.jpg": "/IceCream/static/media/carousel-2.1e259c77eb153f82ad9b.jpg",
     "static/media/carousel-1.jpg": "/IceCream/static/media/carousel-1.e61bca0d284d35f718ac.jpg",
     "static/media/about.jpg": "/IceCream/static/media/about.5d517cbb590c993643d1.jpg",
     "index.html": "/IceCream/index.html",
-    "main.750d1ea0.css.map": "/IceCream/static/css/main.750d1ea0.css.map",
-    "main.d500039d.js.map": "/IceCream/static/js/main.d500039d.js.map"
+    "main.74b41a95.css.map": "/IceCream/static/css/main.74b41a95.css.map",
+    "main.610cda17.js.map": "/IceCream/static/js/main.610cda17.js.map"
   },
   "entrypoints": [
-    "static/css/main.750d1ea0.css",
-    "static/js/main.d500039d.js"
+    "static/css/main.74b41a95.css",
+    "static/js/main.610cda17.js"
   ]
 }
