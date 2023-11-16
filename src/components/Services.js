@@ -14,7 +14,7 @@ import service3 from '../assets/service-3.jpg'
 const Services = () => {
     return (
         <div id='services' className='container mx-auto my-20'>
-            <div className="container  mx-auto text-center font my-9 text-[#a52a2a]">
+            <div className="container  mx-auto text-center font mt-7 mb-2 text-[#a52a2a]">
                 <h1 className='font-robo text-4xl md:text-6xl' >Best Services We Provide <br /> For Our Clients!
                 </h1>
             </div>

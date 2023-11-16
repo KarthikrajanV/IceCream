@@ -9,7 +9,7 @@ import { Button } from "@material-tailwind/react";
 const Orders = () => {
     return (
         <div id='order'>
-            <h1 className='text-4xl md:text-6xl text-center font-robo md:my-20 my-5 text-[#a52a2a] px-2'>
+            <h1 className='text-4xl md:text-6xl text-center font-robo md:mt-20 md:pb-2 my-5 text-[#a52a2a] px-2'>
                 Best Prices We Offer For Ice Cream Lovers!
             </h1>
             <div className='container md:mx-auto'>

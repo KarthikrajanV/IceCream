@@ -8,6 +8,8 @@ import {
     Card,
 } from "@material-tailwind/react";
 
+import { Link } from 'react-scroll'
+
 
 
 
@@ -29,9 +31,29 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#services" className="flex items-center">
+                
+                <Link to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={800} className="flex items-center cursor-pointer">
+                    Home
+                </Link>
+            </Typography>
+            <Typography
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="p-1 font-normal"
+            >
+                
+                <Link to="services"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500} className="flex items-center cursor-pointer">
                     Services
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -39,9 +61,13 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#about" className="flex items-center">
+                <Link to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-85}
+                    duration={700} className="flex items-center cursor-pointer">
                     About us
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -49,9 +75,13 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#order" className="flex items-center">
-                    Order now
-                </a>
+                <Link to="order"
+                    spy={true}
+                    smooth={true}
+                    offset={-85}
+                    duration={1000} className="flex items-center cursor-pointer">
+                    Order Now
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -59,16 +89,20 @@ const Nav = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#contact" className="flex items-center">
-                    Contact
-                </a>
+                <Link to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={1000} className="flex items-center cursor-pointer">
+                    Contact us
+                </Link>
             </Typography>
 
         </ul>
     );
     return (
         <div>
-            <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 bg-[#ffc0cb]">
+            <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 bg-[#ffc0cb]">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Typography
                         as="a"

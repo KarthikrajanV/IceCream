@@ -5,7 +5,7 @@ import React from 'react'
 
 const Carousel1 = () => {
     return (
-        <div className="rounded md:h-[700px]">
+        <div id='home' className="rounded md:h-[700px] mt-10">
             <Carousel transition={{ duration: 1.5 }} autoplay={true} loop={true} >
                 <img
                     src={carousel2}

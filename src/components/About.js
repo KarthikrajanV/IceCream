@@ -12,7 +12,7 @@ const About = () => {
                     <p className='text-justify text-xl font-serif mb-10 font-semibold'>Devoted to delivering the exceptionally best-frozen yogurt and sorbet, <span className='text-green-900'>Frozen Treats</span> opened in August 2004 on Orchard Street in Lower Manhattan.</p>
                     <p>We’re hitched and eat plentiful measures of frozen yogurt. We’d cheerfully have a scoop for breakfast, lunch, and supper on the off chance that we could.</p>
                 </div>
-                <div className='md:block w-1/3 hidden  overflow-hidden rounded-xl mx-4 ' >
+                <div className='md:block w-1/3 hidden  overflow-hidden rounded-xl mx-4 h-[480px] ' >
                     <img src={abt} className='transition-transform duration-300 hover:scale-125 ' />
                 </div>
                 <div className='md:w-1/3  py-4 mx-auto px-7' >
